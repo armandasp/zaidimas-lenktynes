@@ -1,0 +1,83 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both; 
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  font-size: 24px;
+  line-height: 2;
+  text-align: left;
+}
+header{
+  border-bottom: 4px dashed black;
+  display: flex;
+}
+input{
+  font-size: 20px;
+  margin: 10px;
+}
+.select{
+  width: 20px;
+}
+ul{
+  width: 20%;
+  display: inline-block;
+  border-right: 3px dashed black;
+  min-height: 80vh;
+  vertical-align: top;
+  list-style: none;
+}
+
+.race-track{
+  width: 75%;
+  min-height: 80vh;
+  display: inline-block;
+  position: relative;
+}
+.add{
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid blue;
+  cursor: pointer;
+  user-select: none;
+  transition: .15s;
+}
+.add:active{
+  transform: scale(0.95)
+}
+.race{
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid red;
+  cursor: pointer;
+  user-select: none;
+  transition: .15s;
+}
+.add:active{
+  transform: scale(0.95)
+}
+img{
+  width: 120px;
+  display: block;
+}
+h1{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border: 3px dashed red;
+  border-radius: 15px;
+  height: 30vh;
+  padding: 40px 20px 0 20px;
+}
